@@ -81,11 +81,15 @@ The content of the file will be the following one
 ![image](https://user-images.githubusercontent.com/93620683/139954818-9913cb3b-26f7-431a-84e5-003cdafe8b99.png)
 
 
-``
-`cmd`
-`op1`
-`op1`
-`op1`
+`Device` `device`: must be `VIZRT_MSE`. (**required**)
+
+`Command` `cmd`: vizrt MSE profile command. [More details [Vozrt MSE Documentation - Profile Command](http://127.0.0.1:8580/doc/profile_command.xhtml)] (**required**)
+
+`Options1` `op1`: vizrt element name or desccription. (**required**)
+
+`Options2` `op2`: vizrt playlist title. Usa Channel element_collection (Pages) if empty. (**optional**)
+
+`Options3` `op3`: Channel Name. Default use from global settings Channel Name. (**optional**)
 
 ## Configure and Activate VizrtMSE Plugin
 Run Event Manager Configurator application
