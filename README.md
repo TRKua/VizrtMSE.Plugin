@@ -4,6 +4,7 @@
 
 ## Dependency
  - [Microsoft .NET Framework 4.6.1](https://www.microsoft.com/ru-ru/download/details.aspx?id=49982)
+ - [Cinegy Event Manager](https://open.cinegy.com/products/air/21.9/cinegy-event-manager/)
 
 ## Install and Register
 Unzip the Cinegy.VizrtMSE.Plugin.zip archive to C:\Program Files (x86)\Cinegy\3rd-party Event Plugins\
