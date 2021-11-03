@@ -117,7 +117,7 @@ To configure the plugin, click `Setup` button
 
 ## Licensing
 
-The plugin must be registered, for more information contact the manufacturer of the plugin
+The plugin must be registered.
 
 ![image](https://user-images.githubusercontent.com/93620683/140024173-c407b73f-b479-4e7f-a601-46b683ee60b5.png)
 
