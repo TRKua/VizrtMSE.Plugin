@@ -86,7 +86,7 @@ The content of the file will be the following one
 
 `Command` `cmd`: vizrt MSE profile command. [More details [Vozrt MSE Documentation - Profile Command](http://127.0.0.1:8580/doc/profile_command.xhtml)] (**required**)
 
-`Options1` `op1`: vizrt element name or desccription. (**required**)
+`Options1` `op1`: vizrt element name or description. (**required**)
 
 `Options2` `op2`: vizrt playlist title. Usa Channel element_collection (Pages) if empty. (**optional**)
 
@@ -109,9 +109,9 @@ To configure the plugin, click `Setup` button
 
 `Vizrt MSE:` `Url` - Vizrt Media Sequencer REST API Url. (for example `http://VizrtMseHost:8580`)
 
-`Vizrt MSE:` `Channel` - ``
+`Vizrt MSE:` `Channel` - `Vizrt Channel Name`
 
-`System:` `DebugMode` - activate the logging in debug mode (`C:\ProgramData\Cinegy\CinegyAir\EventServiceLog_*.log`)
+`System:` `DebugMode` - activate the logging in debug mode (`%ProgramData%\Cinegy\CinegyAir\EventServiceLog_*.log`)
 
 `Licensing:` `HardwareID` - the computer hardware ID. 
 
