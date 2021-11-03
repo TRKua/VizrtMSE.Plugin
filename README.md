@@ -88,9 +88,9 @@ The content of the file will be the following one
 
 `Options1` `op1`: vizrt element name or description. (**required**)
 
-`Options2` `op2`: vizrt playlist title. Usa Channel element_collection (Pages) if empty. (**optional**)
+`Options2` `op2`: vizrt playlist title. Usa Channel Pages (element_collection) if empty. (**optional**)
 
-`Options3` `op3`: Channel Name. Default use from global settings Channel Name. (**optional**)
+`Options3` `op3`: Channel Name. Use by default from global settings Channel Name. (**optional**)
 
 ## Configure and Activate VizrtMSE Plugin
 Run Event Manager Configurator application
