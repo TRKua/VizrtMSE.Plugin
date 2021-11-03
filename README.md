@@ -51,9 +51,6 @@ The content of the file will be the following one
         <command name="cut">
           <event offset="+0" device="VIZRT_MSE" cmd="cut"/>
         </command> 
-        <command name="cut">
-          <event offset="+0" device="VIZRT_MSE" cmd="cut"/>
-        </command> 
         <command name="continue">
           <event offset="+0" device="VIZRT_MSE" cmd="continue"/>
         </command> 
