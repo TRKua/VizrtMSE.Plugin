@@ -83,11 +83,16 @@ The content of the file will be the following one
 
 `Command` `cmd`: vizrt MSE profile command. [More details [Vozrt MSE Documentation - Profile Command](http://127.0.0.1:8580/doc/profile_command.xhtml)] (**required**)
 
-`Options1` `op1`: vizrt element name or description. (**required**)
+`Options1` `op1`: vizrt element name or description. (**optional if op2 is filled**)
 
-`Options2` `op2`: vizrt playlist title. Usa Channel Pages (element_collection) if empty. (**optional**)
+`Options2` `op2`: vizrt playlist title. Usa Channel Pages (element_collection) if empty. (**optional if op1 is filled**)
 
 `Options3` `op3`: Channel Name. Use by default from global settings Channel Name. (**optional**)
+
+#### Notes: 
+> If the op1 field is filled, the command executed for element.
+
+> if the op1 is empty but the op2 field is filled, the command is executed for show/playlist.
 
 ## Configure and Activate VizrtMSE Plugin
 Run Event Manager Configurator application
@@ -117,5 +122,26 @@ To configure the plugin, click `Setup` button
 The plugin must be registered.
 
 ![image](https://user-images.githubusercontent.com/93620683/140024173-c407b73f-b479-4e7f-a601-46b683ee60b5.png)
+
+
+## Profile commands support
+
+### Commands for show/playlist
+
+- [x] initialize
+- [x] initialize_and_set_renderer
+- [x] cleanup
+
+### Commands for element entry
+- [x] initialize
+- [x] take
+- [x] update
+- [x] cut
+- [x] continue
+- [x] continue_reverse
+- [x] prepare
+- [x] cue
+- [x] read
+- [x] out
 
 
